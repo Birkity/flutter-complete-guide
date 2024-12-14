@@ -34,7 +34,7 @@ class Result extends StatelessWidget {
             ),
             textAlign: TextAlign.center,
           ),
-          FloatingActionButton(
+          OutlinedButton(
             onPressed: resetHandler,
             child: Text(
               'Reset Quiz',
@@ -42,7 +42,6 @@ class Result extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
-            backgroundColor: Colors.blue,
           ),
         ],
       ),
