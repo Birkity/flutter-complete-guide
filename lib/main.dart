@@ -32,7 +32,11 @@ class _MyAppState extends State<MyApp> {
     });
 
     print(_questionIndex);
-    if (_questionIndex < _questions.length) {}
+    if (_questionIndex < _questions.length) {
+      print('We have more questions.');
+    }else if(){
+      print('No more questions');
+    }
   }
 
   @override
