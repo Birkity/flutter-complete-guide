@@ -39,7 +39,7 @@ class Result extends StatelessWidget {
             child: Text(
               'Reset Quiz',
               style: TextStyle(
-                color: Colors.white,
+                color: Colors.black,
               ),
             ),
           ),
